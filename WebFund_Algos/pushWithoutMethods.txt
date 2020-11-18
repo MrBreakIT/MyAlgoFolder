@@ -1,0 +1,26 @@
+// //var arr = [ 2 , 4 , 6 , 8 ]
+
+// arr.push(10) => [2,4,6,8,10]
+
+// WARMUP: Write the function that pushes into an array WITHOUT using push in your function. Try to do this without using any built-in array methods.
+
+// arr.pushFront(0) => [0,2,4,6,8,10]
+
+function pushEnd(arr, num) {
+	arr[arr.length] = num;
+	return arr;
+}
+
+// Array: Push Front
+// Given array and an additional value, insert this value at the beginning of the array. Try to do this without using any built-in array methods.
+
+function pushFront(arr, num) {
+	for (let i = arr.length - 1; i >= 0; i--) {
+		arr[i + 1] = arr[i];
+	}
+	arr[0] = num;
+	console.log(arr);
+	return arr;
+}
+
+pushFront([1, 2, 3, 4, 5, 6], 7);
