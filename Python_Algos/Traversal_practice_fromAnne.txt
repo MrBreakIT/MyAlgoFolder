@@ -1,0 +1,34 @@
+# Having trouble showing/changing data in lists and dictionaries?
+# Ask yourself, "can I print JUST the thing I want BEFORE I try to change it?"
+
+customers = [[20,50],[35,10],[0,8]] # looks intimidating, but let's break it down, going from big to small:
+
+print(customers) # shows a list of lists
+# Well, we know how to find things in a list...
+print(customers[1]) # shows a single list
+# So customers[1] is a list! We can do to it whatever we can do to any other list, like use indexes:
+print(customers[1][1]) # shows a single number in a single list
+customers[1][1] = 15 # changes the second number in the second list in the list of lists
+print(customers) #shows a list of lists
+
+vips = [
+    {'name':'Bob', 'location':[20,20]},
+    {'name':'Jane', 'location':[10,2]}
+]
+
+print(vips) # list of dictionaries
+print(vips[0]) # dictionary
+# So vips[0] is a dictionary! And we know we can look at values in dictionaries based on their keys, so:
+print(vips[0]['name']) # this shows us a string
+vips[0]['name'] = "Robert" # changes the string in the dictionary in the list
+print(vips) # list of dictionaries
+
+my_faves = {
+    'food':'sushi',
+    'color':'gray'
+}
+
+print(my_faves) # dictionary
+print(my_faves['food']) # the value at the key location 'food', which is a string
+my_faves['food'] = 'sammiches' # changes the value at 'food'
+print(my_faves) # let's see the change!
