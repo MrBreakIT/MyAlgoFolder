@@ -59,7 +59,7 @@ mult = 7
 for i in range(lowNum, highNum+1, 1):
     if i % mult == 0:
         print(i)
-readability("end")
+# readability("end")
 
 
 
@@ -74,5 +74,4 @@ def b():
     return 5
 y = a()
 print(y)
-
 
