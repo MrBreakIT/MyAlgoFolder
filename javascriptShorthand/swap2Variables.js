@@ -13,3 +13,10 @@ y = temp;
 
 // shorthand
 [x, y] = [y, x]
+
+
+// another example
+let a = 'world', b = 'hello';
+[a, b] = [b, a]
+console.log(a)
+console.log(b)

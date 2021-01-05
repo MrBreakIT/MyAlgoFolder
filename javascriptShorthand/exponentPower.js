@@ -2,10 +2,10 @@
 
 
 //longhand
-const power = Math.pow(4, 3);  //64
+// const power = Math.pow(4, 3);  //64
 
 //shorthand
 const power = 4 ** 3;       //64
-
+console.log(power)
 
 

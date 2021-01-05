@@ -5,7 +5,9 @@ let firstName = "Amitav";
 let lastName = "Mishra";
 
 //longhand
-let obj = { firstName: firstName, lastName: lastName };
+// let obj = { firstName: firstName, lastName: lastName };
 
 //shorthand
 let obj = { firstName, lastName };
+console.log(obj)
+console.log(obj.firstName + " " + obj.lastName)

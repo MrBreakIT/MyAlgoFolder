@@ -4,10 +4,12 @@
 
 // longhand
 
-let a, b, c;
-a = 5;
-b = 8;
-c = 12;
+// let a, b, c;
+// a = 5;
+// b = 8;
+// c = 12;
 
 // shorthand
 let [a, b, c] = [5, 8, 12];
+console.log(a, b, c)
+console.log([a, b, c])

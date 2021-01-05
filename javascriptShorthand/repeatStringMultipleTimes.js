@@ -14,4 +14,6 @@ console.log(str);  //Hello Hello Hello Hello Hello
 
 
 //TIP: want to apologize to someone by sending 100 times "Sorry"?  Try it with repeat() method. If you want to repeat each string in new line, add \n to string
-"sorry\n".repeat(100);
+let str1 = "sorry\n";
+str1.repeat(100);
+console.log(str1.repeat(100))

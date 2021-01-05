@@ -3,9 +3,11 @@
 
 
 // Longhand
-let x;
-let y = 20;
+// let x;
+// let y = 20;
 
 // shorthand
 let x, y = 20;
+console.log(x)
+console.log(y)
 

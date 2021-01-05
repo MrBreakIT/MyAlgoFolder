@@ -6,5 +6,7 @@ const arr = [2, 8, 15, 4];
 Math.max(...arr)    // 15
 Math.min(...arr)    // 2
 
-
+console.log(arr)
+console.log(Math.max(...arr))
+console.log(Math.min(...arr))
 
